@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "./Button";
 export default function Profile({ image, name, charge, location, bio }) {
   return (
     <>
@@ -16,9 +17,7 @@ export default function Profile({ image, name, charge, location, bio }) {
           <h2 className="text-black font-bold text-3xl">{name}</h2>
           <p className="text-gray-600">{charge}</p>
           <p className="text-gray-400">{location}</p>
-          <button className="bg-blue-400 text-white px-6 py-1 rounded-full  hover:bg-blue-600 w-fit">
-            Follow
-          </button>
+          <Button text="Follow" onClick={() => {}} className="mt-2" />
         </div>
       </div>
       <div className="mt-10 ml-5">

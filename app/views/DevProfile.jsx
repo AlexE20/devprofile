@@ -1,7 +1,7 @@
 import Card from "../components/Card";
 import Profile from "../components/Profile";
-import Skills from "../components/Skills";
 import { profileData } from "../DummyData/DummyData";
+import Badge from "../components/Badge";
 export default function DevProfile({
   skills,
   projects,
@@ -21,7 +21,10 @@ export default function DevProfile({
         location={location}
         bio={bio}
       />
-      <Skills skills={profileData.skills}/>
+      <div className="flex flex-col mt-8 ">
+      <h2 className="text-2xl text-black font-extrabold ml-5">Skills</h2>
+      <Badge className="ml-5" things={profileData.skills} />
+      </div>
     </Card>
   );
 }
