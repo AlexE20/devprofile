@@ -1,10 +1,9 @@
-import Image from "next/image";
 import DevProfile from "./views/DevProfile";
 import { profileData } from "./DummyData/DummyData";
 
 export default function Home() {
   return (
-    <main className="h-screen flex items-center justify-center bg-[#F5F8FA]">
+    <main className="min-h-screen flex items-center justify-center bg-[#F5F8FA] p-4">
 
       <DevProfile
         image={profileData.avatar}

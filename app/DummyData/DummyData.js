@@ -38,6 +38,22 @@ export const profileData = {
  title: "Project Zeta",
  description: "A system for managing customer relationships.",
  technologies: ["Ruby on Rails", "PostgreSQL"]
+ },
+ {
+ title: "Project Zeta",
+ description: "A system for managing customer relationships.",
+ technologies: ["Ruby on Rails", "PostgreSQL"]
+ },
+ {
+ title: "Project Zeta",
+ description: "A system for managing customer relationships.",
+ technologies: ["Ruby on Rails", "PostgreSQL"]
+ },
+ {
+ title: "Project Zeta",
+ description: "A system for managing customer relationships.",
+ technologies: ["Ruby on Rails", "PostgreSQL"]
  }
+ 
  ]
 };
